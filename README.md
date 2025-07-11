@@ -21,3 +21,10 @@ This pipeline does the following:
 ---
 
 ## 🗂 **Folder Structure**
+node-docker-demo/
+├── app/
+│ ├── Dockerfile # Builds Node.js Docker image
+│ ├── package.json # Node.js app dependencies
+│ └── server.js # Node.js Express app
+├── Jenkinsfile # Jenkins pipeline script
+└── README.md # Project documentation
